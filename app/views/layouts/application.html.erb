@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
     <!-- css -->
-    <!-- js -->
-    <script type="text/javascript" src="/js/enquire.min.js"></script>
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,6 +11,7 @@
     <title>IT Consultation</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= stylesheet_link_tag    'styles', media: 'all', 'data-turbolinks-track' => true %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
 
@@ -22,4 +21,33 @@
     <%= yield %>
 
   </body>
+
+  <!--script shit -->
+  <script type="text/javascript">
+    /* global enquire */
+    /* global $ */
+    /* global Materialize */
+    $(document).ready(function(){
+      $('.parallax').parallax();
+      // scrollspy
+      $('.scrollspy').scrollSpy();
+    });
+    // enquire stuff for this page
+    // largest breakpoint in materialize "desktop"
+    enquire.register("only screen and (min-width: 992px)", {
+      match: function(){
+      } // end match
+    });
+    // medium breakpoint "tablet"
+    enquire.register("only screen and (max-width: 991px) and (min-width: 601px)", {
+      match: function(){
+      } // end match
+    });
+    // small breakpoiint, "phone"
+    enquire.register("only screen and (max-width: 600px)", {
+      match: function(){
+      } // end match
+    });
+
+  </script>
 </html>
