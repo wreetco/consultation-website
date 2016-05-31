@@ -33,13 +33,13 @@
             <li><a href="#consulting_tab">Consulting</a></li>
             <li><a href="/about/index">About</a></li>
             <li><a href="/contact/index">Contact</a></li>
-            <li><a class="waves-effect waves-light btn cyan accent-4">login</a></li>
+            <li><a class="waves-effect waves-light btn cyan accent-4" href="/login/index">login</a></li>
           </ul>
           <!-- sidenav collapsed view -->
           <ul class="side-nav" id="nav-mobile">
             <li><a href="/about/index">About</a></li>
             <li><a href="/contact/index">Contact</a></li>
-            <li><a class="waves-effect waves-light btn cyan accent-4">login</a></li>
+            <li><a class="waves-effect waves-light btn cyan accent-4" href="/login/index">login</a></li>
           </ul>
         </div>
       </nav>
@@ -92,6 +92,11 @@
       $('.scrollspy').scrollSpy();
       //slider initialization
       $('.slider').slider({full_width: true});
+      // Activate the side menu 
+ 			$(".button-collapse").sideNav({
+ 			  menuWidth: 150,
+ 			  edge: 'left'
+ 			});
     });
     // enquire stuff for this page
     // largest breakpoint in materialize "desktop"
@@ -111,13 +116,5 @@
     });
 
   </script>
-  <script>
- 		$(document).ready(function(){
-   			// Activate the side menu 
-   			$(".button-collapse").sideNav({
-   			  menuWidth: 150,
-   			  edge: 'left'
-   			});
-  		});
-	</script>
+  
 </html>
