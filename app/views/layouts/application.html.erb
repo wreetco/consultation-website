@@ -22,15 +22,18 @@
 
   </body>
 
-  <!--script shit -->
+  <!--javascript scripts-->
   <script type="text/javascript">
     /* global enquire */
     /* global $ */
     /* global Materialize */
     $(document).ready(function(){
+      //parallax initialization
       $('.parallax').parallax();
-      // scrollspy
+      // scrollspy initialization
       $('.scrollspy').scrollSpy();
+      //slider initialization
+      $('.slider').slider({full_width: true});
     });
     // enquire stuff for this page
     // largest breakpoint in materialize "desktop"

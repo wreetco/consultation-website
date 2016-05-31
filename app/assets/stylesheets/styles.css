@@ -29,10 +29,19 @@ nav ul .active {
   top: 14px;
 }
 
-.splash1 {
+.slider {
   margin-top: 64px;
   margin-bottom: 35px;
 }
+
+.splash1 {
+  min-height: 50vh;
+  margin-top: 64px;
+  /*
+  margin-bottom: 35px;
+  */
+}
+
 
 .splash2 {
   min-height: 50vh;
