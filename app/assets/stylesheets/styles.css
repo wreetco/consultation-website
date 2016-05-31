@@ -16,27 +16,22 @@ nav {
 }
 
 nav ul a {
-   color: #cfd8dc; !important;
+   color: #cfd8dc;
 }
 
-nav ul a.active {
+nav ul .active {
   border-bottom: 2px solid #00bcd4;
 }
 
-.splash {
-  background-image: url('/img/servers.jpg');
-  background-size: cover;
+.splash1 {
   margin-top: 64px;
-  margin-bottom: 40px;
-  /* debug */
-  min-height: 50vh;  
+  margin-bottom: 35px;
 }
 
-/*.splash-two {
-  background-image: url('/img/switch.jpg');
-  background-size: cover;
+.splash2 {
   min-height: 50vh;
-}*/
+  margin-bottom: 35px;
+}
 
 .parallax-container {
   min-height: 66vh;
