@@ -34,6 +34,10 @@ nav ul .active {
   margin-bottom: 35px;
 }
 
+.slider .indicators .indicator-item.active {
+  background-color: #00bcd4;
+}
+
 .splash1 {
   min-height: 50vh;
   margin-top: 64px;
