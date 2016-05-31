@@ -24,33 +24,32 @@ nav ul .active {
 }
 
 .logoimage {
-  position: absolute;
-  left: 260px;
-  top: 14px;
+  position: relative;
+  left: 2px;
+  top: 6px;
 }
 
 .slider {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 35px;
 }
 
 .splash1 {
   min-height: 50vh;
   margin-top: 64px;
-  /*
-  margin-bottom: 35px;
-  */
+  margin-bottom: -20px;
 }
-
 
 .splash2 {
   min-height: 50vh;
   margin-bottom: 35px;
 }
 
+/*
 .parallax-container {
   min-height: 66vh;
 }
+*/
 
 .table-deal .table-caption {
   font-size: 2em;
