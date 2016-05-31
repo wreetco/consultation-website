@@ -17,10 +17,65 @@
 
   </head>
   <body>
+    
+    <!-- nav brad -->
+    <nav class="blue-grey darken-3">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">
+          Front Range IT <%= image_tag('logo.png', size: "35x35", class: "logoimage") %>
+        </a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down" id="nav-full">
+        <!-- navbar full size view -->
+          <li><a href="#infra_tab" class="active">Networks</a></li>
+          <li><a href="#security_tab">Security</a></li>
+          <li><a href="#consulting_tab">Consulting</a></li>
+          <li><a href="#about_time">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a class="waves-effect waves-light btn cyan accent-4">login</a></li>
+        </ul>
+        <!-- sidenav collapsed view -->
+        <ul class="side-nav" id="nav-mobile">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <%= yield %>
 
   </body>
+  
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12 scrollspy" id="about_tab">
+          <h5 class="grey-text text-lighten-2">About Us</h5>
+          <p class="grey-text text-lighten-2">You can use rows and columns here to organize your footer content.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="grey-text text-lighten-2">Links</h5>
+          <ul>
+            <li><a class="cyan-text" href="#!">Infrastructure</a></li>
+            <li><a class="cyan-text" href="#!">Security</a></li>
+            <li><a class="cyan-text" href="#!">Consulting</a></li>
+            <li><a class="cyan-text" href="#!">About</a></li>
+            <li><a class="cyan-text" href="#!">Contact</a></li>
+            <li><a class="cyan-text" href="#!">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        <a class="grey-text text-lighten-3 right" style="font-size: .66em;" href="https://wreet.co">
+          Powered by wreetco
+          &nbsp;
+          <img src="https://wreet.co/assets/wreetco_icon_alt.png" style="width: 2.5em; position: relative; top: 1em;" />
+        </a>
+      </div>
+    </div>
+  </footer>
 
   <!--javascript scripts-->
   <script type="text/javascript">
