@@ -16,31 +16,44 @@ nav {
 }
 
 nav ul a {
-   color: #cfd8dc; !important;
+   color: #cfd8dc;
 }
 
-nav ul a.active {
+nav ul .active {
   border-bottom: 2px solid #00bcd4;
 }
 
-.splash {
-  background-image: url('/img/servers.jpg');
-  background-size: cover;
-  margin-top: 64px;
-  margin-bottom: 40px;
-  /* debug */
-  min-height: 50vh;  
+.logoimage {
+  position: relative;
+  left: 2px;
+  top: 6px;
 }
 
-/*.splash-two {
-  background-image: url('/img/switch.jpg');
-  background-size: cover;
-  min-height: 50vh;
-}*/
+.slider {
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
 
+.slider .indicators .indicator-item.active {
+  background-color: #00bcd4;
+}
+
+.splash1 {
+  min-height: 50vh;
+  margin-top: 64px;
+  margin-bottom: -20px;
+}
+
+.splash2 {
+  min-height: 50vh;
+  margin-bottom: 35px;
+}
+
+/*
 .parallax-container {
   min-height: 66vh;
 }
+*/
 
 .table-deal .table-caption {
   font-size: 2em;

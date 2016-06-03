@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>IT Consultation</title>
+    <title>Front Range IT</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= stylesheet_link_tag    'styles', media: 'all', 'data-turbolinks-track' => true %>
 
@@ -17,20 +17,90 @@
 
   </head>
   <body>
+    
+    <!-- nav brad -->
+    <div class="navbar-fixed">
+      <nav class="blue-grey darken-3">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">
+            Front Range IT<%= image_tag('logo.png', size: "35x35", class: "logoimage") %>
+          </a>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down" id="nav-full">
+          <!-- navbar full size view -->
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a class="waves-effect waves-light btn cyan accent-4" href="/login">login</a></li>
+          </ul>
+          <!-- sidenav collapsed view -->
+          <ul class="side-nav" id="nav-mobile">
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a class="waves-effect waves-light btn cyan" href="/login">login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <%= yield %>
 
   </body>
+  
+  <footer class="page-footer grey darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 m6 s12 scrollspy" id="about_tab">
+          <h3 class="grey-text text-lighten-2">Contact</h3>
+          <p class="cyan-text">
+            <h5 class="cyan-text">Front Range IT, LLC</h5>
+            <a><i class="material-icons left">call</i>720.463.4401</a>
+            <p>
+            <a><i class="material-icons left">email</i>SUPPORT@FRONTRANGEIT.NET</a>
+            </p>
+          </p>
+        </div>
+        <div class="col l2 m3 s6 offset-l5 offset-m2">
+          <h3 class="grey-text text-lighten-2">Links</h3>
+          <ul>
+            <li><a class="cyan-text" href="/about">About</a></li>
+            <li><a class="cyan-text" href="/contact">Contact</a></li>
+            <li><a class="cyan-text" href="/login">Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container">
+        <a class="grey-text text-lighten-3 right" style="font-size: .66em;" href="https://wreet.co">
+          Powered by wreetco
+          &nbsp;
+          <img src="https://wreet.co/assets/wreetco_icon_alt.png" style="width: 2.5em; position: relative; top: 1em;" />
+        </a>
+      </div>
+    </div>
+  </footer>
 
-  <!--script shit -->
+  <!--javascript scripts-->
   <script type="text/javascript">
     /* global enquire */
     /* global $ */
     /* global Materialize */
     $(document).ready(function(){
+      //parallax initialization
       $('.parallax').parallax();
-      // scrollspy
+      // scrollspy initialization
       $('.scrollspy').scrollSpy();
+      //slider initialization
+      $('.slider').slider({full_width: true});
+      // Activate the side menu 
+ 			$(".button-collapse").sideNav({
+ 			  menuWidth: 150,
+ 			  edge: 'left'
+ 			});
+ 			//accordion menu initialization
+ 			$('.collapsible').collapsible({
+      accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+      });
     });
     // enquire stuff for this page
     // largest breakpoint in materialize "desktop"
@@ -50,4 +120,5 @@
     });
 
   </script>
+  
 </html>
