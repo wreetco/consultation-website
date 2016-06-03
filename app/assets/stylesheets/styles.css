@@ -29,6 +29,17 @@ nav ul .active {
   top: 6px;
 }
 
+.logoimage2 {
+  position: relative;
+  left: 2px;
+  top: 8px;
+}
+
+.small-logo {
+  font-size: 1.5em;
+}
+
+
 .slider {
   margin-top: 0px;
   margin-bottom: 35px;
