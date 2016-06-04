@@ -1,8 +1,6 @@
 # Front Range IT website
 # Version 1.0
 
-Client portion of wreetcos CRM
-
 ## Requirements
 
 You'll need the following software installed to get started.
