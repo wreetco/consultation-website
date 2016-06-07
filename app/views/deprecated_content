@@ -1,0 +1,143 @@
+<div class="row valign-wrapper" style="margin-bottom: 0;">
+  <div class="col l6 m8 s12 left-align offset-l3 offset-m2" style="padding: 1em 0;">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">dns</i>Switches</div>
+        <div class="collapsible-body"><p>Switches and a gateway form the backbone of your business network.<br>  
+        They are the "blinky lights" boxes which are all-too-often found on the floor!  Front
+        Range IT will make sure you have the correct infrastructure for your needs, and we will
+        even wall-mount it for you too!</p></div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">cloud_circle</i>Servers</div>
+        <div class="collapsible-body"><p>Servers are what allow you and your team to work more efficiently together.
+        A good Business-grade networked server will allow you to share files securely, run shared business applications,
+        backup your data to the cloud, and much more.  We prefer to use Dell brand servers because of their excellent
+        warranty, responsive customer support team, and a track record of dependability.</p></div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">settings_input_hdmi</i>Wiring</div>
+        <div class="collapsible-body"><p>Front Range IT offers in-house ethernet wiring services for your business.
+        No outsourcing here, we just like to get our hands dirty sometimes!  We can give you a quote on running additional Ethernet
+        lines in your office for data or VoIP phones, or for new installations.</p></div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row blue-grey lighten-5 valign-wrapper" style="margin-bottom: 0;">
+  <div class="col l6 m8 s12 left-align offset-l3 offset-m2" style="padding: 1em 0;">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">pan_tool</i>Firewalls</div>
+        <div class="collapsible-body">
+          <p>
+            The network Firewall is the gatekeeper to your internal network.<br>
+            Any attacks originating on the internet must pass through your "network gateway"
+            to make it into your systems - so it is very important to make sure that
+            gateway is a Firewall, or UTM (Unified Threat Management) device!<br>
+            We have years of experience installing firewalls, and making networks secure.
+            Let us help give you piece of mind about your network security with a firewall
+            installation.<br>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">search</i>Audits</div>
+        <div class="collapsible-body">
+          <p>
+            Security auditing of business networks is a fast-growing field.<br>
+            The repercussions of businesses being "hacked" have never been more visible,
+            with several high-profile data breaches in just the last few years.<br>
+            Front Range IT offers network penetration testing, and security practices evaluations
+            to let you know if your business infrastructure and data are secure.<br>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">description</i>Policies</div>
+        <div class="collapsible-body">
+          <p>
+            We know the IT industry best practices for your employees to follow, and we
+            can help you implement them.<br>
+            We will tell you how to structure your employee usage of technologies such as
+            file sharing and BYOD (bring your own device) usage.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row blue-grey lighten-4 valign-wrapper" style="margin-bottom: 0;">
+  <div class="col l6 m8 s12 left-align offset-l3 offset-m2" style="padding: 1em 0;">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">account_circle</i>IT Documentation</div>
+        <div class="collapsible-body">
+          <p>
+            Front Range IT believes that good documentation must be at the core of any business IT infrastructure.<br>
+            Without proper documentation of your environment, key knowledge can be lost when employees leave or with
+            a change of IT vendor.<br>
+            We document your entire environment up-front, and then provide this detailed information to you.<br>
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">perm_identity</i>General</div>
+        <div class="collapsible-body">
+          <p>
+            Front Range IT has over a decade in IT experience on various topics.<br>
+            Give us a call, and let us help you with your IT needs and future goals!
+          </p>
+        </div>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+
+<div class="row blue-grey lighten-3 valign-wrapper" style="margin-bottom: 0;">
+  <div class="col l6 m8 s12 left-align offset-l3 offset-m2" style="padding: 1em 0;">
+    <ul class="collapsible popout" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">build</i>Desktop Support</div>
+        <div class="collapsible-body">
+          <p>
+            Desktop Support is where most of our clients are in need of help.<br>
+            Front Range IT offers onsite and remote desktop support services for your small to medium-sized
+            business.<br>
+            Let us come show you why we are not your typical IT guys - we are personable and friendly,
+            and awesome at IT!
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">settings</i>Infrastructure Support</div>
+        <div class="collapsible-body">
+          <p>
+            Infrastructure support is equally as important as desktop support, as a poorly configured
+            network will cause indeterminate, transitory, and completely unpredictable problems!<br>
+            In fact, many of the "desktop" problems we see are actually network mis-configuration issues
+            at their core.<br>
+            Let us comb through your network, and pull out the kinks!
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="collapsible-header hoverable"><i class="material-icons">business</i>Office Moves</div>
+        <div class="collapsible-body">
+          <p>
+          Are you moving into a new building and need your 
+          network closet moved?  Starting a new business and 
+          need a complete network infrastructure?  We have 
+          experience building networks from scratch, and will 
+          handle everything including sourcing components, 
+          physical installation, configuration, and ongoing 
+          support!
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
