@@ -37,14 +37,15 @@
       <nav class="blue-grey darken-3">
         <div class="nav-wrapper container">
           <a href="/" class="brand-logo hide-on-small-only">
-            Front Range IT<%= image_tag('logo.png', size: "35x35", class: "logoimage", alt: "frontrangeit logo") %>
+            Front Range IT <%= image_tag('logo.png', size: "35x35", class: "logoimage", alt: "frontrangeit logo") %>
           </a>
-          <a href="/" class="brand-logo small-logo hide-on-med-and-up">
-            Front Range IT<%= image_tag('logo.png', size: "25x32", class: "logoimage2", alt: "frontrangeit logo 2") %>
+          <a href="/" class="brand-logo small-logo hide-on-med-and-up" style="padding-left: .5em">
+            Front Range IT <%= image_tag('logo.png', size: "25x32", class: "logoimage2", alt: "frontrangeit logo 2", style: "padding-bottom: .1em;") %>
           </a>
           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down" id="nav-full">
             <!-- navbar full size view -->
+            <li><a class="cyan-text accent-4" style="font-weight: bold;" href="tel:7204634401">720.463.4401</a></li>
             <li><a href="/workstations">Workstations</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a class="waves-effect waves-light btn cyan accent-4" href="/remotesupport">Remote Support</a></li>
@@ -54,6 +55,7 @@
             <li><a href="/workstations">Workstations</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/remotesupport">Remote</a></li>
+            <li><a class="cyan-text accent-4" style="font-weight: bold" href="tel:7204634401">720.463.4401</a></li>
             <!--<li><a class="waves-effect waves-light btn cyan" href="/login">login</a></li>-->
           </ul>
         </div>
@@ -64,13 +66,13 @@
 
   </body>
 
-  <footer class="page-footer grey darken-3">
+  <footer class="page-footer grey darken-3" style="margin-top: 0;">
     <div class="container">
       <div class="row">
         <div class="col l4 m6 s12 scrollspy" id="about_tab">
           <h3 class="grey-text text-lighten-2">Contact</h3>
           <h5 class="cyan-text">Front Range IT, LLC</h5>
-          <a><i class="material-icons left">call</i>720.463.4401</a>
+          <a href="tel:7208370191"><i class="material-icons left">call</i>720.463.4401</a>
           <p>
             <a><i class="material-icons left">email</i>support@frontrangeit.co</a>
           </p>
