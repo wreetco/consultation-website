@@ -35,31 +35,33 @@
                 </p>
             </div>
             <div class="col s12 m8 indigo-text">
-              <form id="contactForm" novalidate="novalidate">
+              <form id="contactForm" novalidate="novalidate" method="post" action="/contact/new">
+                  <input type="hidden" name="contact[form]" value="contact form">
                 <div class="input-field">
-                  <input type="text" name="name" required="" data-schema-key="name" maxlength="50">
+                  <input type="text" name="contact[name]" required="" data-schema-key="name" maxlength="50">
                   <label for="name">Name</label>
                 </div>
                 <div class="input-field">
-                  <input type="text" name="email" required="" data-schema-key="email">
+                  <input type="text" name="contact[email]" required="" data-schema-key="email">
                   <label for="email">Email</label>
                 </div>
                 <div class="input-field">
-                  <input type="text" name="subject" data-schema-key="subject">
+                  <input type="text" name="contact[subject]" data-schema-key="subject">
                   <label for="subject">Subject</label>
                 </div>
                 <div class="input-field">
-                  <textarea name="message" rows="5" required="" data-schema-key="message" maxlength="1000" class="materialize-textarea"></textarea>
+                  <textarea name="contact[message]" rows="5" required="" data-schema-key="message" maxlength="1000" class="materialize-textarea"></textarea>
                   <label for="message">Message</label>
                 </div>
                 <div class="row">
                   <div class="col s12">
-                    <button class="waves-effect waves-light cyan btn">
+                    <button name="action" type="submit" class="waves-effect waves-light cyan btn">
                         Send <i class="mdi-content-send right"></i>
                     </button>
                   </div>
                 </div>
               </form>
+              
             </div>
         </div>
     </div>

@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   get '/contact', to: 'contact#index'
+  post '/contact/new', to: 'contact#new'
   get '/login', to: 'login#index'
   get '/workstations', to: 'workstations#index'
   get '/remotesupport', to: 'remotesupport#index'
